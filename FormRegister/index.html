@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Register</title>
+</head>
+
+<body>
+
+    <form action="https://httpbin.org/post&quot" method="Post" id="form1" target="_blank">
+
+        <label for="fname">First name</label><br>
+        <input required name="fname" id="fname" type="text"><br>
+
+        <label for="lname">Last name</label><br>
+        <input required name="lname" id="lname" type="text"><br>
+
+
+        <label for="email">Email Address</label><br>
+        <input required name="email" id="email" type="email"><br>
+
+
+        <label for="password">Password</label><br>
+        <input required name="password" id="password" type="password" placeholder="Must be at least 8 characters" minlength="8"><br>
+
+        <label> 
+        <input required type="checkbox" > <b>I accept the terms!!! </b> 
+        </label><br>
+
+
+        <input id="male" type="radio" name="Gender" value="Male">
+        <label for="male">Male</label><br>
+
+
+        <input id="female" type="radio" name="Gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <input type="submit" value="Register"><br>
+        <input type="reset" value="Reset">
+    </form>
+    <!-- <input required list="age" name="age" form="form1"> <b>Age Categories</b><br> -->
+    <p title="Ages">choose age category</p>
+    <select name="age" size="5">
+        <optgroup label="adults">
+            <option value="18-24">18-24</option>
+            <option value="24-30">24-30</option>
+            <option value="30+">30+</option>
+        </optgroup>
+        <optgroup label="minors">
+            <option value="6-10">6-10</option>
+            <option value="10-14">10-14</option>
+            <option value="14-18">14-18</option>
+        </optgroup>
+
+    </select><br>
+
+</body>
+
+</html>
